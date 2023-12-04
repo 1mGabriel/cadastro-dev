@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(90, 144, 180);
+}
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.info-container{
+    gap: 10px;
+    display: flex;
+}
+.label{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+
+}
+.input{
+    border-radius: 50px;
+    border: 2px solid rgb(46, 95, 128);
+    
+}
+.input-tec{
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.tec-btn{
+    border-radius: 50px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.tec-btn:hover{
+    background-color:rgb(90, 144, 180) ;
+    border: 2px solid white;
+    color: white;
+
+}
+.remove-button{
+   margin-left: 5px; 
+   height: 25px;
+   border-radius: 10px;
+   font-weight: 800;
+   background-color: rgb(189, 80, 80);
+   color: white;
+   border: 1px solid white;
+}
+
+.remove-button:hover{
+    background-color: white;
+    color: rgb(189, 80, 80);
+
+}
+.confirm-container{
+padding: 10PX;
+gap: 5px;
+}
+.confirm-button{
+    border-radius: 50px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.name{
+    color: white;
+}
+.age{
+    color: white;
+}
+.gender{
+ color: white;
+}
+.btn-confirm{
+    border-radius: 50px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}

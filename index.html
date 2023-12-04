@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Cadastro de Desenvolvedores</title>
+</head>
+<body>
+    <h1 class="h1">Cadastro de Desenvolvedores</h1>
+
+    <div id="mainDiv" class="main-container">
+    <div id="infoDiv" class="info-container">
+        <label for="firstName" class="label">Nome</label>
+        <input type="text" name="firstName" id="firstName" class="input">
+        <label for="secondName" class="label">Sobrenome</label>
+        <input type="text" name="secondName" id="secondName" class="input">
+        <label for="date" class="label">Nascimento</label>
+        <input type="date" name="date" id="date" class="input">
+        <label for="gender" class="label">Gênero</label>
+        <input type="radio" name="gender" id="gender" class="gender-radio1" value="Masculino"> <p class="label">M</p>
+        <input type="radio" name="gender" id="gender" class="gender-radio2" value="Feminino"> <p class="label">F</p>
+    </div>
+
+    <div id="inputTec" class="input-tec">
+        <button id="tecBtn" class="tec-btn" onclick="AdicionarTec()"><i>+Tecnologia</i></button>
+    </div>
+    <div id="tecContainer" class="tec-container">
+
+    </div>
+
+    <div id="confirmDiv" class="confirm-container">
+        <button id="confirmButton" class="confirm-button" onclick="Cadastrar()">Cadastrar</button>
+    </div>
+    <footer class="footer">&COPY;g__briell</footer>
+    </div>
+</body>
+</html>
